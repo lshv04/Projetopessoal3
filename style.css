@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+/* nav */
+#helpcenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+#navbg {
+    background-color: #000000 !important;
+}
+
+#navbg a {
+    color: white;
+}
+
+#but1 {
+    background-color: #000000;
+    margin: 2vh;
+}
+
+
+#but2:hover {
+    background-color: white;
+    color: #000000;
+    border: none;
+    transition: all 0.5s ease;
+
+}
+
+
+@media (min-width: 400px) {
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+/* header */
+
+
+#cont1 {
+    background-color: #dadbf1;
+}
+
+#cont1a {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-top: 80px;
+    padding-bottom: 115px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+#cont1 h1 {
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Cards */
+#rows {
+    margin: 2vh;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    border: none;
+    margin: 4vh 0;
+
+}
+
+.textcard h4 {
+    font-weight: bold;
+    color: #000000;
+}
+
+.textcard p {
+    line-height: 1.5rem;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+
+.textcard a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.textcard a:hover {
+    text-decoration: underline;
+}
+
+#cont2a {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    justify-items: center;
+
+}
+
+/* Footer */
+
+#contbg {
+    background-color: #000000;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+h5 {
+    font-weight: bold;
+    color: white;
+}
+
+.linkc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+.linkc a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.90rem;
+
+}
+
+.linkc a:hover {
+    text-decoration: underline;
+
+}
+
+#Copyright p {
+    color: white;
+    margin: 0;
+
+}
+
+#Copyright img {
+    margin-bottom: 2vh;
+}
